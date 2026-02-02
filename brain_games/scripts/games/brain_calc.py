@@ -7,7 +7,7 @@ def question_br_calc():
     print("What is the result of the expression?")
 
 
-def br_calc_main(name, i):
+def br_calc(name, i):
     num_1 = random.randint(1, 50)
     num_2 = random.randint(1, 50)
     operation = random.choice("+-*")

@@ -9,7 +9,7 @@ def is_even(num):
     return num % 2 == 0
 
 
-def br_even_main(name, i):
+def br_even(name, i):
     num = random.randint(1, 100)
     print("Question: " + str(num))
     answer = str(input("Your answer: ").lower().strip())
