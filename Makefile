@@ -8,3 +8,11 @@ package-install:
 	uv tool install dist/*.whl
 lint:
 	uv run ruff check brain_games
+brain-even:
+	uv run brain-even
+brain-calc:
+	uv run brain-calc
+brain-games-begin:
+	uv run brain-games-begin
+brain-gcd:
+	uv run brain-gcd
