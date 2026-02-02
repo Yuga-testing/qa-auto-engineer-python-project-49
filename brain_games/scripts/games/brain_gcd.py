@@ -1,11 +1,11 @@
 import random
 
-
 from brain_games.wrong_answer import wrong_answer
 
 
 def question_br_gcd():
     print("Find the greatest common divisor of given numbers.")
+
 
 def br_gcd(name, i):
     num_1 = random.randint(1, 100)

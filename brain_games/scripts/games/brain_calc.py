@@ -1,7 +1,7 @@
 import random
 
-
 from brain_games.wrong_answer import wrong_answer
+
 
 def question_br_calc():
     print("What is the result of the expression?")
@@ -19,7 +19,7 @@ def br_calc(name, i):
         case "-":
             result = num_1 - num_2
         case "*":
-                result = num_1 * num_2
+            result = num_1 * num_2
     if answer == result:
         print("Correct!")
         i += 1
