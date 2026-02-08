@@ -1,2 +1,4 @@
 .venv
 .DS_Store
+demo.cast
+__pycache__
