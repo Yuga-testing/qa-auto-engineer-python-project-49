@@ -19,15 +19,19 @@ def main():
         "brain-prime": (question_br_prime, br_prime),
     }
 
-    command = str(input("Input name of the game:  "))
+    command = str(input())
 
     if command in games or command == "brain-games":
         print("Welcome to the Brain Games!")
         name = prompt.string("May I have your name? ")
         print("Hello, " + name + "!")
+        
     else:
         print("try again")
         return
+    
+    if command == "brain-games":
+        exit()
 
     show_rules, play_round = games[command]
     show_rules()
