@@ -22,8 +22,12 @@ def main():
     command = str(input())
 
     print("Welcome to the Brain Games!")
+    #fff
     name = prompt.string("May I have your name? ")
+    #ff
     print("Hello, " + name + "!")
+    #fff
+
     
     if command in games :
         show_rules, play_round = games[command]
@@ -35,6 +39,5 @@ def main():
         if i == 4:
             return print("Congratulations, " + name + "!")
 
-
 if __name__ == "__main__":
-    main()    
+    main()
