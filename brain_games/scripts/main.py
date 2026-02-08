@@ -27,7 +27,8 @@ def main():
         print("Hello, " + name + "!")
         
     else:
-        print("try again")
+        print("Welcome to the Brain Games!")
+        #print("try again")
         return
     
     if command.startswith("brain-games"):
