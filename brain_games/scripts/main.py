@@ -25,17 +25,15 @@ def main():
     name = prompt.string("May I have your name? ")
     print("Hello, " + name + "!")
     
-    if command not in games :
-        exit()
-    
-    show_rules, play_round = games[command]
-    show_rules()
+    if command in games :
+        show_rules, play_round = games[command]
+        show_rules()
 
-    i = 1
-    while i < 4:
-        i = play_round(name, i)
-    if i == 4:
-        return print("Congratulations, " + name + "!")
+        i = 1
+        while i < 4:
+            i = play_round(name, i)
+        if i == 4:
+            return print("Congratulations, " + name + "!")
 
 
 if __name__ == "__main__":
