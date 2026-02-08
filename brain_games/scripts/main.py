@@ -21,7 +21,7 @@ def main():
 
     command = str(input())
 
-    if command in games or command == "brain-games":
+    if command in games or command.startswith("brain-games"):
         print("Welcome to the Brain Games!")
         name = prompt.string("May I have your name? ")
         print("Hello, " + name + "!")
@@ -30,7 +30,7 @@ def main():
         print("try again")
         return
     
-    if command == "brain-games":
+    if command.startswith("brain-games"):
         exit()
 
     show_rules, play_round = games[command]
