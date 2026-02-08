@@ -10,7 +10,7 @@ from brain_games.games.brain_progression import (
 )
 
 
-def main():
+def start(command):
     games = {
         "brain-even": (question_br_even, br_even),
         "brain-calc": (question_br_calc, br_calc),
@@ -19,15 +19,10 @@ def main():
         "brain-prime": (question_br_prime, br_prime),
     }
 
-    command = str(input())
-
     print("Welcome to the Brain Games!")
-    #fff
     name = prompt.string("May I have your name? ")
-    #ff
     print("Hello, " + name + "!")
-    #fff
-
+ 
     
     if command in games :
         show_rules, play_round = games[command]
@@ -38,6 +33,6 @@ def main():
             i = play_round(name, i)
         if i == 4:
             return print("Congratulations, " + name + "!")
+    else:
+        print("Error name!")
 
-if __name__ == "__main__":
-    main()
