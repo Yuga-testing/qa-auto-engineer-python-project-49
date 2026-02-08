@@ -1,10 +1,10 @@
 import prompt
 
-from brain_games.scripts.games.brain_calc import br_calc, question_br_calc
-from brain_games.scripts.games.brain_even import br_even, question_br_even
-from brain_games.scripts.games.brain_gcd import br_gcd, question_br_gcd
-from brain_games.scripts.games.brain_prime import br_prime, question_br_prime
-from brain_games.scripts.games.brain_progression import (
+from brain_games.games.brain_calc import br_calc, question_br_calc
+from brain_games.games.brain_even import br_even, question_br_even
+from brain_games.games.brain_gcd import br_gcd, question_br_gcd
+from brain_games.games.brain_prime import br_prime, question_br_prime
+from brain_games.games.brain_progression import (
     br_progression,
     question_br_progression,
 )
