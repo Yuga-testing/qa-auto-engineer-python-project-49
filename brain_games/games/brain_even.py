@@ -4,7 +4,7 @@ from brain_games.answer_yes_no import answer_false, answer_true
 
 
 def question_br_even():
-    print("Answer 'yes' if the number is even, otherwise answer 'no'.")
+    print('Answer "yes" if the number is even, otherwise answer "no".')
 
 
 def is_even(num):

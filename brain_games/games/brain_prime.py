@@ -4,7 +4,7 @@ from brain_games.answer_yes_no import answer_false, answer_true
 
 
 def question_br_prime():
-    print("Answer 'yes' if given number is prime. Otherwise answer 'no'.")
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
 
 
 def is_prime(num):
