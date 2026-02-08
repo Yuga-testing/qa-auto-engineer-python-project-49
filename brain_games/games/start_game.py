@@ -22,9 +22,8 @@ def start(command):
     print("Welcome to the Brain Games!")
     name = prompt.string("May I have your name? ")
     print("Hello, " + name + "!")
- 
-    
-    if command in games :
+     
+    if command in games:
         show_rules, play_round = games[command]
         show_rules()
 
